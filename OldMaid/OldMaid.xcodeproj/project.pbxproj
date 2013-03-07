@@ -18,6 +18,9 @@
 		37C9BC1616E819F6004908A2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C9BC1516E819F6004908A2 /* Default-568h@2x.png */; };
 		37C9BC1916E819F6004908A2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C9BC1716E819F6004908A2 /* MainStoryboard.storyboard */; };
 		37C9BC1C16E819F6004908A2 /* OMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C9BC1B16E819F6004908A2 /* OMViewController.m */; };
+		37C9BC2816E81AAF004908A2 /* OMHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C9BC2716E81AAF004908A2 /* OMHand.m */; };
+		37C9BC2B16E81AE3004908A2 /* OMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C9BC2A16E81AE3004908A2 /* OMCard.m */; };
+		37C9BC2E16E81B12004908A2 /* OMDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C9BC2D16E81B12004908A2 /* OMDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,12 @@
 		37C9BC1816E819F6004908A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		37C9BC1A16E819F6004908A2 /* OMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMViewController.h; sourceTree = "<group>"; };
 		37C9BC1B16E819F6004908A2 /* OMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMViewController.m; sourceTree = "<group>"; };
+		37C9BC2616E81AAF004908A2 /* OMHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMHand.h; sourceTree = "<group>"; };
+		37C9BC2716E81AAF004908A2 /* OMHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMHand.m; sourceTree = "<group>"; };
+		37C9BC2916E81AE3004908A2 /* OMCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMCard.h; sourceTree = "<group>"; };
+		37C9BC2A16E81AE3004908A2 /* OMCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMCard.m; sourceTree = "<group>"; };
+		37C9BC2C16E81B12004908A2 /* OMDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMDeck.h; sourceTree = "<group>"; };
+		37C9BC2D16E81B12004908A2 /* OMDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,12 @@
 				37C9BC1A16E819F6004908A2 /* OMViewController.h */,
 				37C9BC1B16E819F6004908A2 /* OMViewController.m */,
 				37C9BC0616E819F6004908A2 /* Supporting Files */,
+				37C9BC2616E81AAF004908A2 /* OMHand.h */,
+				37C9BC2716E81AAF004908A2 /* OMHand.m */,
+				37C9BC2916E81AE3004908A2 /* OMCard.h */,
+				37C9BC2A16E81AE3004908A2 /* OMCard.m */,
+				37C9BC2C16E81B12004908A2 /* OMDeck.h */,
+				37C9BC2D16E81B12004908A2 /* OMDeck.m */,
 			);
 			path = OldMaid;
 			sourceTree = "<group>";
@@ -177,6 +192,9 @@
 				37C9BC0C16E819F6004908A2 /* main.m in Sources */,
 				37C9BC1016E819F6004908A2 /* OMAppDelegate.m in Sources */,
 				37C9BC1C16E819F6004908A2 /* OMViewController.m in Sources */,
+				37C9BC2816E81AAF004908A2 /* OMHand.m in Sources */,
+				37C9BC2B16E81AE3004908A2 /* OMCard.m in Sources */,
+				37C9BC2E16E81B12004908A2 /* OMDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

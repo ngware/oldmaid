@@ -21,6 +21,8 @@
 		37C9BC2816E81AAF004908A2 /* OMHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C9BC2716E81AAF004908A2 /* OMHand.m */; };
 		37C9BC2B16E81AE3004908A2 /* OMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C9BC2A16E81AE3004908A2 /* OMCard.m */; };
 		37C9BC2E16E81B12004908A2 /* OMDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C9BC2D16E81B12004908A2 /* OMDeck.m */; };
+		37C9BC3116EF5497004908A2 /* OMCardGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C9BC3016EF5497004908A2 /* OMCardGame.m */; };
+		37C9BC3416EF55F1004908A2 /* OMOldMaidHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C9BC3316EF55F1004908A2 /* OMOldMaidHand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,10 @@
 		37C9BC2A16E81AE3004908A2 /* OMCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMCard.m; sourceTree = "<group>"; };
 		37C9BC2C16E81B12004908A2 /* OMDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMDeck.h; sourceTree = "<group>"; };
 		37C9BC2D16E81B12004908A2 /* OMDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMDeck.m; sourceTree = "<group>"; };
+		37C9BC2F16EF5497004908A2 /* OMCardGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMCardGame.h; sourceTree = "<group>"; };
+		37C9BC3016EF5497004908A2 /* OMCardGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMCardGame.m; sourceTree = "<group>"; };
+		37C9BC3216EF55F1004908A2 /* OMOldMaidHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMOldMaidHand.h; sourceTree = "<group>"; };
+		37C9BC3316EF55F1004908A2 /* OMOldMaidHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMOldMaidHand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,10 @@
 				37C9BC2A16E81AE3004908A2 /* OMCard.m */,
 				37C9BC2C16E81B12004908A2 /* OMDeck.h */,
 				37C9BC2D16E81B12004908A2 /* OMDeck.m */,
+				37C9BC2F16EF5497004908A2 /* OMCardGame.h */,
+				37C9BC3016EF5497004908A2 /* OMCardGame.m */,
+				37C9BC3216EF55F1004908A2 /* OMOldMaidHand.h */,
+				37C9BC3316EF55F1004908A2 /* OMOldMaidHand.m */,
 			);
 			path = OldMaid;
 			sourceTree = "<group>";
@@ -195,6 +205,8 @@
 				37C9BC2816E81AAF004908A2 /* OMHand.m in Sources */,
 				37C9BC2B16E81AE3004908A2 /* OMCard.m in Sources */,
 				37C9BC2E16E81B12004908A2 /* OMDeck.m in Sources */,
+				37C9BC3116EF5497004908A2 /* OMCardGame.m in Sources */,
+				37C9BC3416EF55F1004908A2 /* OMOldMaidHand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

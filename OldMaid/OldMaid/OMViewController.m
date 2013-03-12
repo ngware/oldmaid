@@ -10,6 +10,8 @@
 #import "OMCard.h"
 #import "OMDeck.h"
 #import "OMHand.h"
+#import "OMCardGame.h"
+#import "OMOldMaidHand.h";
 
 @interface OMViewController ()
 
@@ -79,6 +81,21 @@
     [deck dealNCards:9 toHands: handArray];
     NSLog(@"%@", hand.description);
     NSLog(@"%@", hand2.description);
+    
+    NSLog(@"###############\n");
+    
+    OMCardGame *game = [[OMCardGame alloc] init];
+    OMOldMaidHand *hand3 = [[OMOldMaidHand alloc] initWithName:@"Franck"];
+    NSArray *handArray2 = [[NSArray alloc] initWithObjects:hand3, nil];
+    [[game deck] dealNCards:13 toHands:handArray2];
+    NSLog(@"%@", [hand3 description]);
+    
+    [hand3 removeMatches];
+    NSLog(@"%@", [hand3 description]);
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

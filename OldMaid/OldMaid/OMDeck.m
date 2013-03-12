@@ -102,14 +102,15 @@ static NSUInteger random_below(NSUInteger n) {
 
 -(void)dealAllCards:(NSArray*)hands {
     int nHands = [hands count];
+    NSInteger nbCards = [_cards count];
     
-    for (int i = 0; i < [_cards count]; i++) {
+    for (int i = 0; i < nbCards; i++) {
         if ([self isEmpty]) break;
+        
         OMCard *card = [self popCard];
         OMHand *hand = [hands objectAtIndex:(i % nHands)];
         [hand addCard:card];
     }
-    
 }
 
 -(void)dealNCards:(NSInteger)nbCards toHands:(NSArray*)hands {
